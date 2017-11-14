@@ -21,7 +21,6 @@ class CalculatorViewController: UIViewController {
     let t=0.18
     let currency="$"
     func updateValueSlider(){
-        
         let amountTotal = sliderCalculator.value
         
         let amountTipCal = Double(amountTotal) * t
