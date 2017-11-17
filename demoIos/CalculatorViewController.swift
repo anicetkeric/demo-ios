@@ -5,7 +5,6 @@
 //  Created by Macintosh @aek on 09/11/2017.
 //  Copyright © 2017 Macintosh @aek. All rights reserved.
 //
-
 import UIKit
 
 class CalculatorViewController: UIViewController {
@@ -20,6 +19,7 @@ class CalculatorViewController: UIViewController {
     
     let t=0.18
     let currency="$"
+    
     func updateValueSlider(){
         let amountTotal = sliderCalculator.value
         
@@ -33,9 +33,9 @@ class CalculatorViewController: UIViewController {
     
     override func viewDidLoad() {
         super
-            .viewDidLoad()
-        updateValueSlider()
+            .viewDidLoad()        
         // Do any additional setup after loading the view.
+        updateValueSlider()
     }
   
     
